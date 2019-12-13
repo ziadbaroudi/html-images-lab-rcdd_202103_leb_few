@@ -13,7 +13,7 @@ RSpec.describe 'index.html' do
 
   it 'contains a second <img> tag with src and alt attributes' do
     img = parsed_html.search('img')[1]
-    expect(img).to_not be_nil, "The third <img> tag is missing!"
+    expect(img).to_not be_nil, "The second <img> tag is missing!"
 
     expect(img.attributes["src"]).to_not be_nil, "Your second <img> tag needs a src attribute"
     expect(img.attributes["src"].value).to_not eq(""), "Every src attribute needs an assigned value, either a URL or relative path"
