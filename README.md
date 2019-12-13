@@ -43,7 +43,7 @@ like this:
 <img src="../images/my_company_logo.png">
 ```
 
-However, its very common, even when publishing your own websites, to have images
+However, it's very common, even when publishing your own websites, to have images
 hosted somewhere else on the internet. In these situations, we need to provide a
 full URL as the source:
 
@@ -51,7 +51,7 @@ full URL as the source:
 <img src="https://i.imgur.com/H1qsYEl.png">
 ```
 
-The `src` attribute always necessary, as without it, the `img` tag would have
+The `src` attribute is always necessary. Without it, the `img` tag has
 nothing to display.
 
 ### Introduce the Image Alt Attribute
@@ -93,7 +93,7 @@ detail to include.
 
 ## Reinforce Our Understanding Of The Image Tag Through Creation
 
-Its time to practice creating some images! For this challenge, feel free to use
+It's time to practice creating some images! For this challenge, feel free to use
 any images you'd like - the tests are looking for the correct tag and
 attributes, not the content.  If you're not sure what to use, feel free to use
 the following URL as your source:
